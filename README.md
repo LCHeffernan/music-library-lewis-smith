@@ -1,14 +1,6 @@
 ## Project title
 
-Music Library - exercise for SQL, databases and **CRUD** operations.
-
-## Motivation
-
-- Learn how to design test for each operation.
-- Learn how to route user request to handler.
-- Learn how to handle error of user request.
-
-## What will learn from this exercise
+Music Library - SQL, Databases, Express.js, Routing.
 
 ### API flow of HTML request:
 
@@ -17,11 +9,11 @@ Music Library - exercise for SQL, databases and **CRUD** operations.
 | index.js           | process config env                        |
 | src/app.js         | process routers                           |
 | src/routes/\*      | process get/post/put/patch controllers    |
-| src/controllers/\* | process back-end controllers and response |
+| src/controllers/\* | process controllers and response |
 
 ### Database setup for each test:
 
-To ensure tests have a fresh database each time they run.
+To ensure tests have a new database created each time we run a test.
 
 ```
 // package.json
@@ -52,7 +44,7 @@ To ensure tests have a fresh database each time they run.
 ## Installation
 
 ```
-$ git clone https://github.com/DavidCheungTW/music-library.git
+$ git clone https://github.com/lewsmit2/music-library.git 
 $ cd music-library
 $ npm install
 ```
@@ -83,24 +75,12 @@ $ npm test
 
 From this exercise, you may learn how to handle request for CRUD operation to relational database.
 
-## Contribute
-
-Big welcome to your [contribution](mailto:davidcheungtw@gmail.com?subject=Contribution_to_Music_Library).
-
-## Credits
-
 ### Recommended Reading List
 
 - [Node-postgres](https://node-postgres.com/)
 - [Docker in 5 minutes](https://www.youtube.com/watch?v=_dfLOzuIg2o)
 - [Docker installation](https://docs.docker.com/get-docker/)
-- [pgAdmin4 installation](https://www.pgadmin.org/download/) (Remark:Just install **macOS** for Mac computer)
+- [pgAdmin4 installation](https://www.pgadmin.org/download/) 
 - [Documentation - Dotenv](https://github.com/motdotla/dotenv/blob/master/README.md)
 - [Documentation - Nodemon](https://www.npmjs.com/package/nodemon)
 - [Preventing SQL Injection in Node.js](https://www.veracode.com/blog/secure-development/how-prevent-sql-injection-nodejs)
-
-## License
-
-Free license
-
-MCRCODES © [David Cheung]()
